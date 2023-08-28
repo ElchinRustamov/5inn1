@@ -64,7 +64,7 @@ const Navbar = () => {
         setAddMesage(addBasket)
         if (addBasket.length == 0) {
             setShow(false)
-            toast.error("Səbət boşdur")
+            toast.error("Səbət boşdur!!")
         }
     }
     const searcHandler = () => {
@@ -85,6 +85,7 @@ const Navbar = () => {
         // searchRef.current.classList.remove("active")
 
     };
+   
     // const languageHandler = () => {
     //     langRef.current.classList.toggle("active")
     //     searchRef.current.classList.remove("active")

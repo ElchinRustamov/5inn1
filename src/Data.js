@@ -3,6 +3,9 @@ import DuyuSiyigi from "./Assets2/MorningSetMenuAssets/DuyuSiyigi.jpg"
 import Honey from "./Assets2/MorningSetMenuAssets/Honey.png"
 import Honey2 from "./Assets2/MorningSetMenuAssets/Honey2.png"
 
+
+
+
 import Ayran from "./Assets2/FoodsImage/Ayran.png"
 import CobanSalati from "./Assets2/FoodsImage/Cobansalati.png"
 import GobelekSorbasi from "./Assets2/FoodsImage/Gobeleksorbasi.png"
@@ -50,6 +53,8 @@ import Toyuqsalati from "./Assets2/FoodsImage/Toyuqsalati.png"
 import Puretoplari from "./Assets2/FoodsImage/Puretoplari.png"
 import Su from "./Assets2/FoodsImage/Su.png"
 import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
+import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
+
 
 
 
@@ -64,7 +69,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setOne: {
                     id: 1,
                     name: "Səhər Yeməyi Set Menyu 1",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -93,7 +98,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTwo: {
                     id: 2,
                     name: "Səhər Yeməyi Set Menyu 2",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -122,7 +127,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTree: {
                     id: 3,
                     name: "Səhər Yeməyi Set Menyu 3",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -216,7 +221,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setOne: {
                     id: 6,
                     name: "Business lunch Set Menyu 1",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -245,7 +250,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTwo: {
                     id: 7,
                     name: "Business lunch Set Menyu 2",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -274,7 +279,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTree: {
                     id: 8,
                     name: "Business lunch Set Menyu 3",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -303,7 +308,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setFo: {
                     id: 9,
                     name: "Business lunch Set Menu 4",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -338,7 +343,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                     count: 1,
                     oneFoods: {
                     name: "Toyuq şorbası",
-                    img: Honey
+                    img: Setmenu
                 },
                     twoFoods: {
                         name: "Tərəvəz salatı",
@@ -365,7 +370,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setOne: {
                     id: 11,
                     name: "Nahar yeməyi Set Menyu 1",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -394,7 +399,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTwo: {
                     id: 12,
                     name: "Nahar yeməyi Set Menyu 2",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -423,7 +428,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTree: {
                     id: 13,
                     name: "Nahar yeməyi Set Menyu 3",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -452,13 +457,13 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setFo: {
                     id: 14,
                     name: "Nahar yemeyi Set Menu 4",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
                     oneFoods: {
                     name: "Toyuq şorbası",
-                    img: Honey
+                    img: Setmenu
                 },
                     twoFoods: {
                         name: "Mimoza salatı",
@@ -467,7 +472,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                     },
                     treeFoods: {
                         name: "Düyü",
-                        img: Honey2,
+                        img: Setmenu,
                     },
                     fooFoods: {
                         name: " Toyuq qızartması",
@@ -481,13 +486,13 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setFive: {
                     id: 15,
                     name: "Nahar yemeyi Set Menu 5",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
                     oneFoods: {
                     name: "Göbələk şorbası",
-                    img: Honey
+                    img: Setmenu
                 },
                     twoFoods: {
                         name: "Tərəvəz salatı",
@@ -496,7 +501,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                     },
                     treeFoods: {
                         name: "Bulğur",
-                        img: Honey2,
+                        img: Setmenu,
                     },
                     fooFoods: {
                         name: "Langet (ət)",
@@ -514,7 +519,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setOne: {
                     id: 16,
                     name: "Axşam yeməyi Set Menyu 1",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -543,7 +548,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTwo: {
                     id: 17,
                     name: "Axşam yeməyi Set Menyu 2",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -572,7 +577,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTree: {
                     id: 18,
                     name: "Axşam yeməyi Set Menyu 3",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -601,13 +606,13 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setFo: {
                     id: 19,
                     name: "Axşam yemeyi Set Menu 4",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
                     oneFoods: {
                     name: "Yayla şorbası",
-                    img: Honey
+                    img: Setmenu
                 },
                     twoFoods: {
                         name: "Tərəvəz salatı",
@@ -616,7 +621,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                     },
                     treeFoods: {
                         name: "Bulğur",
-                        img: Honey2,
+                        img: Setmenu,
                     },
                     fooFoods: {
                         name: " Langet (toyuq)",
@@ -630,7 +635,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setFive: {
                     id: 20,
                     name: "Axşam yemeyi Set Menu 5",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -645,7 +650,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                     },
                     treeFoods: {
                         name: "Spaggetti",
-                        img: Honey2,
+                        img: Setmenu,
                     },
                     fooFoods: {
                         name: "Tava kababı",
@@ -663,7 +668,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setOne: {
                     id: 21,
                     name: "Gecə yarısı yeməyi Set Menyu 1",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -692,7 +697,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTwo: {
                     id: 22,
                     name: "Gecə yarısı yeməyi Set Menyu 2",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -720,7 +725,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setTree: {
                     id: 23,
                     name: "Gecə yarısı yeməyi Set Menyu 3",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
@@ -749,13 +754,13 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setFo: {
                     id: 24,
                     name: "Gecə yarısı yemeyi Set Menu 4",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
                     oneFoods: {
                     name: "Tomat şorbası",
-                    img: Honey
+                    img: Setmenu
                 },
                     twoFoods: {
                         name: "Mimoza salatı",
@@ -764,7 +769,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                     },
                     treeFoods: {
                         name: "Kartof topları",
-                        img: Honey2,
+                        img: Setmenu,
                     },
                     fooFoods: {
                         name: " Toyuq souzu",
@@ -778,13 +783,13 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                 setFive: {
                     id: 25,
                     name: "Gecə yarısı yemeyi Set Menu 5",
-                    img: Honey,
+                    img: Setmenu,
                     price: 5,
                     priceTotal: 5,
                     count: 1,
                     oneFoods: {
                     name: "Toyuq şorbası",
-                    img: Honey
+                    img: Setmenu
                 },
                     twoFoods: {
                         name: "5 inn 1 salatı",
@@ -793,7 +798,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
                     },
                     treeFoods: {
                         name: "Qreçka",
-                        img: Honey2,
+                        img: Setmenu,
                     },
                     fooFoods: {
                         name: "Kotlet (Ət)",
@@ -911,7 +916,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
         const Lahmacunlar = [
             {
                 id: 36,
-                name: "Sadə",
+                name: "Lahmacun Sadə",
                 img: Lahmacunsade,
                 price: 2.5,
                 priceTotal: 2.5,
@@ -920,7 +925,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
             },
             {
                 id: 37,
-                name: "Acılı",
+                name: "Lahmacun Acılı",
                 img: Lahmacunacili,
                 price: 2.5,
                 priceTotal: 2.5,
@@ -929,7 +934,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
             },
             {
                 id: 38,
-                name: "Pendirli",
+                name: "Lahmacun Pendirli",
                 img: Lahmacunpendirli,
                 price: 3,
                 priceTotal: 3,
@@ -938,7 +943,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
             },
             {
                 id: 39,
-                name: "Türk üsulu",
+                name: "Lahmacun Türk üsulu",
                 img: Lahmacunturkusulu,
                 price: 3.5,
                 priceTotal: 3.5,
@@ -947,7 +952,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
             },
             {
                 id: 40,
-                name: "Qarışıq",
+                name: "Lahmacun Qarışıq",
                 img: Lahmacunqarisiq,
                 price: 4,
                 priceTotal: 4,
@@ -960,7 +965,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
         const Pideler = [
             {
                 id: 41,
-                name: "Acılı",
+                name: "Pide Acılı",
                 img: Pideacili,
                 price: 5,
                 priceTotal: 5,
@@ -969,7 +974,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
             },
             {
                 id: 42,
-                name: "Pendirli",
+                name: "Pide Pendirli",
                 img: Pidependirli,
                 price: 5,
                 priceTotal: 5,
@@ -978,7 +983,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
             },
             {
                 id: 43,
-                name: "Toyuqlu",
+                name: "Pide Toyuqlu",
                 img: Pidetoyuqlu,
                 price: 5.5,
                 priceTotal: 5.5,
@@ -987,7 +992,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
             },
             {
                 id: 44,
-                name: "Qiyməli",
+                name: "Pide Qiyməli",
                 img: Pideqiymeli,
                 price: 6,
                 priceTotal: 6,
@@ -996,7 +1001,7 @@ import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
             },
             {
                 id: 45,
-                name: "Qarışıq",
+                name: "Pide Qarışıq",
                 img: Pideqarisiq,
                 price: 7,
                 priceTotal: 7,
