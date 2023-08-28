@@ -97,10 +97,10 @@ const Navbar = () => {
                 <img src={Logo} alt="logo" />
             </a>
             <nav className='navbar' ref={navbarRef}>
-                <a href='#home' onClick={()=>{navigate(-1)}}>Əsas</a>
-                <a href="#about" onClick={()=>{navigate(-1)}}>Haqqımızda</a>
-                <a href="#menu" onClick={()=>{navigate(-1)}}>Menyu</a>
-                <a href="#contact" onClick={()=>{navigate(-1)}}>Əlaqə</a>
+                <a href='#home' onClick={()=>{navigate("/")}}>Əsas</a>
+                <a href="#about" onClick={()=>{navigate("/")}}>Haqqımızda</a>
+                <a href="#menu" onClick={()=>{navigate("/")}}>Menyu</a>
+                <a href="#contact" onClick={()=>{navigate("/")}}>Əlaqə</a>
             </nav>
             <div className="icons">
                 {/* <div className='fas fa-search' onClick={searcHandler}></div> */}
