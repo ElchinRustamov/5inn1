@@ -1,0 +1,795 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;1,300;1,600&family=Roboto:wght@100;300&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(0 0 0 / 0%), rgb(68 68 68 / 0%)),
+    url(../Assets2/Background.png) no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    border-radius: 15px;
+
+  }
+
+/* ================================ */
+
+section{
+    padding: 2rem 7%;
+}
+.header{
+    background: linear-gradient(50deg, rgba(0, 0 , 0, 0.1),#ffc107  95%) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 7%;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.header .logo img{
+    max-width: 85px;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+.header .navbar a:hover{
+    color: #fff;
+    border-bottom: 0.3rem solid green;
+    font-weight: bold;
+}
+.header .icons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.header .icons div{
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.header .icons .basket-icon{
+    position: relative;
+}
+.header .icons .basket-icon .basket-length{
+    position: absolute;
+    background-color: red;
+    top: -1rem;
+    right: -1rem;
+    padding: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .icons .basket-icon .basket-length span{
+    font-size: 1rem;
+}
+
+.header .icons .basket{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 40rem;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(0 0 0 / 0%), rgb(68 68 68 / 0%)),
+    url(../Assets2/Background.png) no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    overflow-x: hidden;  
+    /* transform: all .5s ease-in-out; */
+    animation: openBasket 0.6s ease;
+}
+.basket .basket-body .basket-body-img,
+.basket .basket-body .basket-body-name-price,
+.basket .basket-body .basket-body-count,
+.basket .basket-body .basket-body-delete{
+    width: 5rem;
+}
+
+
+
+
+.basket .basket-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.basket .basket-body .basket-body-img img{
+    width: 5rem;
+    height: 5rem;
+}
+.basket .basket-body .basket-body-name-price p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.basket .basket-body .basket-body-name-price span{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+
+}
+.basket .basket-body .basket-body-count{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+}
+.basket .basket-body .basket-body-count .basket-body-count-artir,
+.basket .basket-body .basket-body-count .basket-body-count-azalt
+{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #ffc107;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+.basket .basket-body .basket-body-count .basket-body-count-say{
+    font-size: 1.7rem;
+}
+.basket .basket-body .basket-body-delete i{
+    color: rgba(252, 60, 60, 0.949);
+} 
+.header .icons .basket .exit{
+    margin: 2rem 0 0 2rem;
+}
+.header .icons .basket .exit:hover i{
+    transform: scale(1.3);
+    color: #ffc107;
+}
+
+@keyframes openBasket {
+    from{
+        transform: translateX(40%);
+        opacity: 0.03;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+.header .icons .basket.active{
+display: block;
+z-index: 1;
+
+}
+.header .icons .basket .basket-footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(233,233,233, 0.6);
+    width: 40rem;
+    height: 15rem;
+    border-radius: 30% 20% 0 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.header .icons .basket .basket-footer .basket-footer-send{
+    width: 100%;
+}
+.header .icons .basket .basket-footer .basket-footer-send button{
+    border: none;
+    background-color: #ffc107;
+    width: 100%;
+    height: 4rem;
+    border-radius: 13px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.header .icons .basket .basket-footer .basket-footer-send button:hover{
+    transform: scale(0.9);
+}
+.header .icons .basket .basket-footer .basket-footer-send button:hover p{
+transform: scale(1.2) ;
+font-weight: bold;
+}
+
+
+.header .icons .lang{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.header .icons .lang .langiconflag{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+}
+    
+.header .icons .language{
+    position: absolute;
+    top: 5.5rem;
+    left: -2rem;
+    background-color: #fff;
+    display: none;
+    border-radius: 13px;
+    padding: 0 2rem;
+    animation: openLang 0.5s ease;
+   
+}
+@keyframes openLang {
+    from{
+        transform: translateY(-30%);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.header .icons .language.active{
+    display:block;
+}
+.header .icons .language button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0 ;
+    cursor: pointer;
+    background-color: inherit;
+}
+.header .icons .language button:hover span{
+    color: #ffc107;
+}
+
+.header .icons .language button span{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.header .icons div:hover{
+    color: rgba(15, 136, 15, 0.829);
+}
+#menu-btn{
+    display: none;
+}
+/* ========================== */
+.header .search-form{
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background:#fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    border-radius: 13px;
+
+}
+.header .search-form.active{
+    transform: scaleY(1);
+}
+
+.header .search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color: #13131a;
+    padding: 1rem;
+    text-transform: none;
+    border-radius: 13px;
+}
+.header .search-form label{
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: #13131a;
+}
+.header .search-form label:hover{
+    color: #ffc107;
+}
+
+
+/* ===================== */
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgb(0 0 0 / 93%), rgb(68 68 68 / 35%)),
+    url(../Images/images.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 5% 30%;
+    padding-top: 12rem;
+}
+.home .content {
+    max-width: 60rem;
+    
+}
+
+.home .content img{
+   max-width: 100%;
+}
+.home span{
+    color: #ffc107;
+    text-transform: uppercase;
+}
+.home .content p{
+    font-weight: lighter;
+    line-height: 1.8;
+    color: #eee;
+    font-size:1.4rem;
+    text-align: center;
+    font-weight: bold ;
+}
+.home  .setmenu a{
+    margin-left: 6rem;
+}
+
+.home  .setmenu img{
+    width: 15%;
+}
+.home  .setmenu img:hover{
+    transform: scale(1.1);
+}
+
+
+/* ===================== */
+.about .row{
+    display: flex;
+    align-items: center;
+    background: #13131a;
+    flex-wrap: wrap;
+    border-radius: 16rem 4rem 16rem 7rem;
+}
+.about .row .image{
+    flex: 0.4 1 45rem;
+    border-radius: 16rem 4rem 16rem 7rem;
+
+
+}
+.about .row .image img{
+    width: 100%;
+    border-radius: 16rem 4rem 12rem 7rem;
+}
+.about .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+}
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+    
+}
+
+.heading{  
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+.heading span{
+    /* margin: 0 2rem; */
+    color: #ffc107;
+    text-transform: uppercase;
+    
+}
+/* ========================== */
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.menu .menu-parents{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* width: 100%; */
+}
+.menu .sorba{
+    background-image: url(../Assets2/FoodsImage/MerciSorbasi.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menu .salat{
+    background-image: url(../Assets2/FoodsImage/Paytaxtsalati.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.menu .lahmacun{
+    background-image: url(../Assets2/FoodsImage/Lahmacunacili.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.menu .pide{
+    background-image: url(../Assets2/FoodsImage/Pideqarisiq.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.menu .isti-yemekler{
+    background-image: url(../Assets2/FoodsImage/Dolma.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.menu .qarnir{
+    background-image: url(../Assets2/FoodsImage/Kartoffrii.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.menu .icki{
+    background-image: url(../Assets2/FoodsImage/Meyvesiresi.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.menu .sorba,
+.menu .salat,
+.menu .lahmacun,
+.menu .pide,
+.menu .isti-yemekler,
+.menu .qarnir,
+.menu .icki
+{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border-radius: 7rem 7rem 7rem 7rem;
+    border: 2px solid #ffc107;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    outline: none;
+
+}
+
+.menu .sorba a,
+.menu .salat a,
+.menu .lahmacun  a,
+.menu .pide a,
+.menu .isti-yemekler a,
+.menu .qarnir a,
+.menu .icki a{
+font-size: 2rem;
+font-weight: bold;
+padding: 2rem;
+color: white;
+text-shadow: 12px 13px 14px #000;
+text-align: center;
+}
+.menu .sorba a:hover,
+.menu .salat a:hover,
+.menu .lahmacun a:hover,
+.menu .pide a:hover,
+.menu .isti-yemekler a:hover,
+.menu .qarnir a:hover,
+.menu .icki a:hover{
+transform: scale(1.1);
+}
+
+
+/* ===================== */
+.products .box-container .box{
+    text-align: center;
+    border: 0.2rem solid #ffc107;
+    padding: 2rem;
+}
+.products .box-container .icons a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: 0.2rem solid #ffc107;
+    color: #fff;
+    margin: 0.3rem;
+}
+.products .box-container .icons a:hover{
+    background: #ffc107;
+}
+.products .box-container .box .image{
+    padding: 2.5rem 0;
+}
+.products .box-container .box .image img{
+    height: 25rem;
+    width: 25rem;
+}
+.products .box-container .box .content h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.products .box-container .box .content .stars{
+    padding: 1.5rem;
+}
+.products .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: #ffc107;
+}
+.products .box-container .box .content .price{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.products .box-container .box .content .price span{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+/* ==================== */
+.contact{
+    padding: 0 0 8rem 0;
+}
+.contact .row {
+display: flex;
+align-items:center;
+justify-content: center;
+gap: 2.5rem;
+}
+.contact .row a i{
+    color:white;
+    font-size: 2.5rem;
+}
+.contact .row a i:hover{
+    color: #ffc107;
+}
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loading img{
+    width: 100vh;
+}
+.menu .menu-parents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+
+@media (max-width:1200px){
+    .home{
+        border-radius: 0 0 2% 20%;
+    }
+        .home  .setmenu {
+            /* margin: 4rem; */
+            display: flex;
+            /* flex-direction: column; */
+            align-items: center;
+            justify-content: space-between;
+            padding: 3rem;
+        }
+        .home  .setmenu a {
+            margin: 1.1rem;
+        }
+        
+        .home  .setmenu img{
+            width: 13rem;
+        }
+        .home  .setmenu img:hover{
+            transform: scale(1.1);
+        }
+        .home .content {
+            display: flex;
+            flex-direction: column;
+        }
+        .home .content p{
+            margin-left: 4rem;
+        }
+        .about .row{
+            border-radius: 16rem 4rem 10rem 2rem;
+        }
+        .header .icons .basket.active{
+            width: 50rem;
+        }
+        .header .icons .basket .basket-footer{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 50rem;
+        }
+        .header .icons .basket .exit{
+            margin: 2rem 0 0 3rem;
+        }
+        .basket .basket-body{
+            padding-left: 4rem;
+        }
+        .header .navbar a{
+            border-bottom: 2px solid #cccccc;
+        }
+        .header .navbar.active{
+            right: 0;
+            width: 50rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0 , 0, 0.8);
+            border-radius: 12rem 0 0 0;
+        }
+        #menu-btn{
+            display: inline-block;
+        }
+        .header .navbar{
+            position: absolute;
+            top: 100%;
+            right: -100%;
+            background: #000;
+            width: 30rem;
+            height: calc(100vh - 9.5rem);
+        }
+        .header .navbar a{
+            color: #fff;
+            display: block;
+            margin: 1.5rem;
+        }
+        
+        .header .navbar.active{
+            right: 0;
+        }
+}
+
+
+
+
+
+@media (max-width:750px){
+    .home{
+    border-radius: 0;
+    }
+    .home  .setmenu {
+        /* margin: 4rem; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .home  .setmenu a {
+        margin: 3rem;
+    }
+    
+    .home  .setmenu img{
+        width: 20rem;
+    }
+    .home  .setmenu img:hover{
+        transform: scale(1.1);
+    }
+    .home .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .home .content p{
+        margin-left: 2rem;
+    }
+    .home .content p{
+        font-size:1.3rem;
+    }
+    .about .row{
+        border-radius: 16rem 4rem 10rem 2rem;
+    }
+    .header .icons .basket.active{
+        width: 100%;
+    }
+    .header .icons .basket .basket-footer{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+    .header .icons .basket .exit{
+        margin: 2rem 0 0 6rem;
+    }
+    .basket .basket-body{
+        padding-left: 7rem;
+    }
+    .header .navbar a{
+        border-bottom: 2px solid #ccc;
+    }
+    .header .navbar.active{
+        right: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:350px){
+
+}
+
+
+@media (max-width:768px){
+    #menu-btn{
+        display: inline-block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #000;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+    .header .navbar a{
+        color: #fff;
+        display: block;
+        margin: 1.5rem;
+    }
+    
+    .header .navbar.active{
+        right: 0;
+    }
+}
+
+
