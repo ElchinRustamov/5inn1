@@ -54,7 +54,11 @@ import Puretoplari from "./Assets2/FoodsImage/Puretoplari.png"
 import Su from "./Assets2/FoodsImage/Su.png"
 import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
 import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
-import Chese from "./Assets2/FoodsImage/Chese.jpeg"
+import Chese2 from "./Assets2/FoodsImage/Chese2.png"
+import Terevez2 from "./Assets2/FoodsImage/Terevez2.webp"
+import PotatoCucumber from "./Assets2/FoodsImage/PotatoCucumber.png"
+
+
 
 
 
@@ -76,8 +80,8 @@ import Chese from "./Assets2/FoodsImage/Chese.jpeg"
                     priceTotal: 5,
                     count: 1,
                     oneFoods: {
-                        name: "Tərəvəz",
-                        img: CobanSalati
+                        name: "Tərəvəz salatı",
+                        img: Terevez2
                     },
                     twoFoods: {
                         name: "Düyü sıyığı",
@@ -110,12 +114,12 @@ import Chese from "./Assets2/FoodsImage/Chese.jpeg"
                     },
                     twoFoods: {
                         name: "Pomidor,xiyar",
-                        img: CobanSalati,
+                        img: PotatoCucumber,
 
                     },
                     treeFoods: {
                         name: "Pendir,şor",
-                        img: Chese,
+                        img: Chese2,
                     },
                     fooFoods: {
                         name: "Toyuqlu omlet",
@@ -139,7 +143,7 @@ import Chese from "./Assets2/FoodsImage/Chese.jpeg"
                 },
                     twoFoods: {
                         name: "Tərəvəz salatı",
-                        img: CobanSalati,
+                        img: Terevez2,
 
                     },
                     treeFoods: {
@@ -709,7 +713,7 @@ import Chese from "./Assets2/FoodsImage/Chese.jpeg"
                 },
                     twoFoods: {
                         name: "Tərəvəz salatı",
-                        img: CobanSalati,
+                        img: Terevez2,
                     },
                     treeFoods: {
                         name: "Düyü",

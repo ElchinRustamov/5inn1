@@ -16,7 +16,7 @@ const About = () => {
                     </div>
                     <div className='content'>
                         <h3>
-                            Biz nə işlə məşğuluq?
+                            Xidmətlərimiz
                         </h3>
                         <p>
                             Yemək zövqünüzü bizimlə zənginləşdirin.

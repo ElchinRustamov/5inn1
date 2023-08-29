@@ -30,7 +30,7 @@
 .setmenu>div>div>img{
     width: 8rem;
     height: 8rem;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .setmenu>div>div{
     display: flex;
