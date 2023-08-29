@@ -54,6 +54,8 @@ import Puretoplari from "./Assets2/FoodsImage/Puretoplari.png"
 import Su from "./Assets2/FoodsImage/Su.png"
 import CocaCola from "./Assets2/FoodsImage/CocaCola.png"
 import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
+import Chese from "./Assets2/FoodsImage/Chese.jpeg"
+
 
 
 
@@ -113,7 +115,7 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     },
                     treeFoods: {
                         name: "Pendir,şor",
-                        img: Honey2,
+                        img: Chese,
                     },
                     fooFoods: {
                         name: "Toyuqlu omlet",
@@ -222,8 +224,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 6,
                     name: "Business lunch Set Menyu 1",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Mərci",
@@ -251,8 +253,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 7,
                     name: "Business lunch Set Menyu 2",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Tomat şorbası",
@@ -280,8 +282,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 8,
                     name: "Business lunch Set Menyu 3",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Yayla",
@@ -371,8 +373,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 11,
                     name: "Nahar yeməyi Set Menyu 1",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Mərci",
@@ -400,8 +402,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 12,
                     name: "Nahar yeməyi Set Menyu 2",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Yayla şorbası",
@@ -429,8 +431,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 13,
                     name: "Nahar yeməyi Set Menyu 3",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Tomat şorbası",
@@ -520,8 +522,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 16,
                     name: "Axşam yeməyi Set Menyu 1",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 9,
+                    priceTotal: 9,
                     count: 1,
                     oneFoods: {
                     name: "Tomat şorbası",
@@ -549,8 +551,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 17,
                     name: "Axşam yeməyi Set Menyu 2",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 9,
+                    priceTotal: 9,
                     count: 1,
                     oneFoods: {
                     name: "Mərci şorbası",
@@ -578,8 +580,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 18,
                     name: "Axşam yeməyi Set Menyu 3",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 9,
+                    priceTotal: 9,
                     count: 1,
                     oneFoods: {
                     name: "Toyuq şorbası",
@@ -669,8 +671,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 21,
                     name: "Gecə yarısı yeməyi Set Menyu 1",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Mərci şorbası",
@@ -698,8 +700,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 22,
                     name: "Gecə yarısı yeməyi Set Menyu 2",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Göbələk şorbası",
@@ -726,8 +728,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 23,
                     name: "Gecə yarısı yeməyi Set Menyu 3",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Yayla şorbası",
@@ -755,8 +757,8 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
                     id: 24,
                     name: "Gecə yarısı yemeyi Set Menu 4",
                     img: Setmenu,
-                    price: 5,
-                    priceTotal: 5,
+                    price: 7,
+                    priceTotal: 7,
                     count: 1,
                     oneFoods: {
                     name: "Tomat şorbası",
