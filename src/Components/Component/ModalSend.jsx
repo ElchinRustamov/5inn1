@@ -62,10 +62,11 @@ import { Toaster, toast } from 'react-hot-toast';
 
 
 const ModalForm = ({ onClose}) => {
-    const { show, setShow, addMesage,setAddBasket } = useContext(StateContext)
+    const { show, setShow, addMesage,setAddBasket} = useContext(StateContext)
     const [sendingData] = useState(addMesage)
     const form = useRef();
     
+    console.log("yoxlama2",sendingData)
    
     const handleSubmit = (values, { resetForm }) => {
         // let arr = [...sendingData];
@@ -73,9 +74,9 @@ const ModalForm = ({ onClose}) => {
         const nameAndCountArray = [];
 
         sendingData.forEach(item => {
-          const { name, count } = item;
-          if (name && count) {
-            nameAndCountArray.push({ name, count });
+          const { name, count, priceTotal } = item;
+          if (name && count && priceTotal) {
+            nameAndCountArray.push({ name, count, priceTotal});
           }
         });
         nameAndCountArray.push(values)
@@ -88,7 +89,7 @@ const ModalForm = ({ onClose}) => {
             // // processedData[item.name,item.price] = item.name;
             // });
             const emailDataFormatted = nameAndCountArray.map(data => {
-                return `${data.name ? `Yeməyin Adı: ${data.name}` : ''}${data.userName ? `Müştəri adı: ${data.userName}` : ''}${data.phoneNumber ? ` Telefon nömrəsi: ${data.phoneNumber}` : ''}${data.count ? ` Sayı: ${data.count}` : ''}`;
+                return `${data.name ? `Yeməyin Adı: ${data.name}` : ''}${data.userName ? `Müştəri adı: ${data.userName}` : ''}${data.phoneNumber ? ` Telefon nömrəsi: ${data.phoneNumber}` : ''}${data.count ? ` Sayı: ${data.count}` : ''}${data.priceTotal ? ` Qiyməti: ${data.priceTotal}` : ''}`;
               }).join('\n');
           emailjs.send('service_1gs6rom', 'template_6fskvza',{ message: emailDataFormatted }, 'aL_sOdLAcCfdDyagF')
             .then((result) => {
