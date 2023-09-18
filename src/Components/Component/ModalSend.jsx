@@ -66,7 +66,6 @@ const ModalForm = ({ onClose}) => {
     const [sendingData] = useState(addMesage)
     const form = useRef();
     
-    console.log("yoxlama2",sendingData)
    
     const handleSubmit = (values, { resetForm }) => {
         // let arr = [...sendingData];
