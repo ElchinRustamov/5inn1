@@ -1,11 +1,6 @@
-
 import DuyuSiyigi from "./Assets2/MorningSetMenuAssets/DuyuSiyigi.jpg"
 import Honey from "./Assets2/MorningSetMenuAssets/Honey.png"
 import Honey2 from "./Assets2/MorningSetMenuAssets/Honey2.png"
-
-
-
-
 import Ayran from "./Assets2/FoodsImage/Ayran.png"
 import CobanSalati from "./Assets2/FoodsImage/Cobansalati.png"
 import GobelekSorbasi from "./Assets2/FoodsImage/Gobeleksorbasi.png"
@@ -57,17 +52,6 @@ import Setmenu from "./Assets2/FoodsImage/Setmenu.jpg"
 import Chese2 from "./Assets2/FoodsImage/Chese2.png"
 import Terevez2 from "./Assets2/FoodsImage/Terevez2.webp"
 import PotatoCucumber from "./Assets2/FoodsImage/PotatoCucumber.png"
-
-
-
-
-
-
-
-
-
-
-
 
 
         const morningSetmenu = [
