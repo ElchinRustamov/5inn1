@@ -18,6 +18,10 @@ import HomeComponent from "./Components/homeComponent";
 import About from "./Components/About";
 import Menu from "./Components/Menu";
 import Contact from "./Components/Contact";
+import SweetMeats from "./Router/OurMenu/sweetmeats";
+import HalfFood from "./Router/OurMenu/HalfFood";
+import Drinks from "./Router/OurMenu/Drinks";
+import Katering from "./Router/OurMenu/Katering";
 
 function App() {
 
@@ -48,6 +52,13 @@ function App() {
         <Route path="/isti-yemekler" element={<IstiYemekler/>}/>
         <Route path="/qarnir" element={<Qarnirler/>}/>
         <Route path="/icki" element={<Ickiler/>}/>
+
+
+        <Route path="/seweetmeats" element={<SweetMeats/>}/>
+        <Route path="/halffood" element={<HalfFood/>}/>
+        <Route path="/drinks" element={<Drinks/>}/>
+        <Route path="/katering" element={<Katering/>}/>
+
       </Routes>
     
   );

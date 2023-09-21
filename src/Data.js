@@ -53,6 +53,27 @@ import Chese2 from "./Assets2/FoodsImage/Chese2.png"
 import Terevez2 from "./Assets2/FoodsImage/Terevez2.webp"
 import PotatoCucumber from "./Assets2/FoodsImage/PotatoCucumber.png"
 
+// Sweets
+import BalliTort from './Assets2/Swwets/Ballıtort.png'
+import Biskivit from './Assets2/Swwets/biskvit.png'
+import Ekler from './Assets2/Swwets/Ekler.png'
+import Keks from './Assets2/Swwets/Keks.png'
+import Paska from './Assets2/Swwets/Paska.png'
+import Paxlava from './Assets2/Swwets/Paxlava.png'
+import Yojik from './Assets2/Swwets/Yojik.png'
+import Napaleon from './Assets2/Swwets/napoleontort.png'
+import Shekerbura from './Assets2/Swwets/shekerbura.png'
+import Bulka from './Assets2/Swwets/Bulka.png'
+import Bulka2 from './Assets2/Swwets/Bulka2.png'
+import Bulka3 from './Assets2/Swwets/Bulka3.png'
+
+// HalfFood
+import Dusbere from './Assets2/HalfFood/Dusbere.png';
+import GurcuXengel from './Assets2/HalfFood/Gurcuxengeli.png';
+import Manti from './Assets2/HalfFood/Manti.png';
+import YarpaXengel from './Assets2/HalfFood/Yarpaqxengeli.png';
+
+
 
         const morningSetmenu = [
             {
@@ -1152,6 +1173,7 @@ import PotatoCucumber from "./Assets2/FoodsImage/PotatoCucumber.png"
             },
         ]
 
+        
         const Icki = [
             {
                 id: 62,
@@ -1199,6 +1221,164 @@ import PotatoCucumber from "./Assets2/FoodsImage/PotatoCucumber.png"
                 // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
             }
         ]
+        const Sweet = [
+            {
+                id: 67,
+                name: "Ballı tort",
+                img: BalliTort,
+                price: 0.6,
+                priceTotal: 0.6,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 68,
+                name: "Biskivit tort",
+                img: Biskivit,
+                price: 0.7,
+                priceTotal: 0.7,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 69,
+                name: "Ekler",
+                img: Ekler,
+                price: 1.5,
+                priceTotal: 1.5,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 70,
+                name: "Keks",
+                img: Keks,
+                price: 2,
+                priceTotal: 2,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 71,
+                name: "Napaleon tort",
+                img: Napaleon,
+                price: 1.5,
+                priceTotal: 1.5,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 72,
+                name: "Paska",
+                img: Paska,
+                price: 1.5,
+                priceTotal: 1.5,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 73,
+                name: "Şəkərbura",
+                img: Shekerbura,
+                price: 1.5,
+                priceTotal: 1.5,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 74,
+                name: "Paxlava",
+                img: Paxlava,
+                price: 1.5,
+                priceTotal: 1.5,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 75,
+                name: "Yojik",
+                img: Yojik,
+                price: 1.5,
+                priceTotal: 1.5,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 76,
+                name: "Bulka",
+                img: Bulka,
+                price: 1.5,
+                priceTotal: 1.5,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 77,
+                name: "Yojik",
+                img: Bulka2,
+                price: 1.5,
+                priceTotal: 1.5,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 78,
+                name: "Yojik",
+                img: Bulka3,
+                price: 1.5,
+                priceTotal: 1.5,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+        ]
+        const halfFood = [
+            {
+                id: 79,
+                name: "Dolma",
+                img: Dolma,
+                price: 0.6,
+                priceTotal: 0.6,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 80,
+                name: "Düşbərə",
+                img: Dusbere,
+                price: 0.6,
+                priceTotal: 0.6,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 81,
+                name: "Gürcü xəngəli",
+                img: GurcuXengel,
+                price: 0.6,
+                priceTotal: 0.6,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 82,
+                name: "Yarpaq xəngəli",
+                img: YarpaXengel,
+                price: 0.6,
+                priceTotal: 0.6,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
+            {
+                id: 83,
+                name: "Mantı",
+                img: Manti,
+                price: 0.6,
+                priceTotal: 0.6,
+                count: 1,
+                // terkibi: "Dogranmis toyuq eti,sogan,bir bas sarimsaq, terkadan kecmis markov"
+            },
 
+            
+        ]
 
-        export { morningSetmenu, businessLunchSetmenu, LunchSetmenu, NightSetMenu, Evening, Sorbalar, Salatlar, Lahmacunlar, Pideler, IstiFoods, Qarnir, Icki }
+        export { morningSetmenu, businessLunchSetmenu, LunchSetmenu, NightSetMenu, Evening, Sorbalar, Salatlar, Lahmacunlar, Pideler, IstiFoods, Qarnir, Icki,Sweet,halfFood }

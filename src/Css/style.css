@@ -340,7 +340,7 @@ font-weight: bold;
 /* ===================== */
 
 .home{
-    min-height: 100vh;
+    min-height:90vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -371,17 +371,25 @@ font-weight: bold;
     text-align: center;
     font-weight: bold ;
 }
-.home  .setmenu a{
-    margin-left: 6rem;
+
+ .setmenu a{
+    margin-left: 5rem;
 }
 
-.home  .setmenu img{
+ .setmenu img{
     width: 15%;
 }
-.home  .setmenu img:hover{
+  .setmenu img:hover{
     transform: scale(1.1);
 }
-
+@media screen and (max-width:760px) {
+    .setmenu img{
+        width: 150px !important;
+    }
+    .setmenu a{
+        margin-left: 1rem !important;
+    }
+}
 
 /* ===================== */
 .about .row{
@@ -442,6 +450,7 @@ font-weight: bold;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
+    padding-top: 30px;
     /* width: 100%; */
 }
 .menu .sorba{
@@ -625,6 +634,7 @@ gap: 2.5rem;
             /* margin: 4rem; */
             display: flex;
             /* flex-direction: column; */
+            flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
             padding: 3rem;
@@ -710,7 +720,8 @@ gap: 2.5rem;
     .home  .setmenu {
         /* margin: 4rem; */
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
         align-items: center;
         justify-content: center;
     }

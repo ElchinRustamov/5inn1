@@ -1,13 +1,13 @@
 import React from 'react'
 import "../Css/style.css";
 import LogoFive from "../Assets2/Fiveinn1.png"
-import { Link, useNavigate } from 'react-router-dom';
-import MorningLogo from "../Assets2/1.png"
-import BusinessLogo from "../Assets2/2.png"
-import LunchLogo from "../Assets2/3.png"
-import NightLogo from "../Assets2/4.png"
-import EveningLogo from "../Assets2/5.png"
-
+import { NavLink, useNavigate } from 'react-router-dom';
+import MorningLogo from "../Assets2/Header1.png"
+import BusinessLogo from "../Assets2/Header2.png"
+import LunchLogo from "../Assets2/Header3.png"
+import NightLogo from "../Assets2/Header4.png"
+import EveningLogo from "../Assets2/Header5.png"
+import { Link,Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
 const HomeComponent = () => {
@@ -17,37 +17,23 @@ const HomeComponent = () => {
             <section className='home' id='home'>
                 <div className="content">
                     <img src={LogoFive} alt="Logo" />
-                   
-                       
-                        <p style={{
-                            // fontSize:"1.4rem",
-                            // textAlign:"center",
-                            // fontWeight:"bold",
-                        }}>1. Yemək çatdırılma xidməti<br/>
-                        2. Şirniyyatların çatdırılma xidməti<br/>
-                        3. Yarım hazırlanmış qidaların çatdırılma xidməti<br/>
-                        4. Coffe və içkilərin çatdırılması<br/>
-                        5. Katerinq (express mətbəx)<br/>
-                        </p>
-                    
-
                 </div>
                 <div className='setmenu'>
-                    <Link to="/morning">
+                    <Link className="test6" to="anchor" spy={true} smooth={true} duration={500}>
                         <img src={MorningLogo} alt="logo" />
                     </Link>
-                    <Link to="/businesslunch">
+                    <NavLink to="/seweetmeats">
                         <img src={BusinessLogo} alt="logo" />
-                    </Link>
-                    <Link to="/lunch">
+                    </NavLink>
+                    <NavLink to="/halffood">
                         <img src={LunchLogo} alt="logo" />
-                    </Link>
-                    <Link to="/night">
+                    </NavLink>
+                    <NavLink to="/drinks">
                         <img src={NightLogo} alt="logo" />
-                    </Link>
-                    <Link to="/evening">
+                    </NavLink>
+                    <NavLink to="/katering">
                         <img src={EveningLogo} alt="logo" />
-                    </Link>
+                    </NavLink>
                 </div>
             </section>
         </>
