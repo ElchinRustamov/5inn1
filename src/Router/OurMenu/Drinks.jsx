@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import {Sorbalar} from "../../Data"
+import {Drinkss} from "../../Data"
 import "./Css/Menus.css"
 import Manat from "../../Assets2/WhiteManat.png"
 import Btnback from '../../Components/Component/Btnback'
@@ -12,7 +12,7 @@ import Navbar from "../../Components/Navbar"
 const Drinks = () => {
   const [sorbaData, setsorbaData] = useState([])
 useEffect(()=>{
-    setsorbaData(Sorbalar);
+    setsorbaData(Drinkss);
 },[]);
 const {addBasket,setAddBasket,searchFilter,setSearchFilter} = useContext(StateContext)
 
