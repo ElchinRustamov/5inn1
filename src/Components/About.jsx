@@ -12,12 +12,7 @@ const About = () => {
                 </h1>
                 <div  className='row'>
                     <div className='image'>
-                        <img src={AboutImg} alt="img"
-                        // style={{
-                        //     width:"400px",
-                        //     height:"300px"
-                        // }}
-                        />
+                        <img src={AboutImg} alt="img"/>
                     </div>
                     <div className='content'>
                         <h3>
