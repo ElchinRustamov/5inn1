@@ -392,9 +392,17 @@ font-weight: bold;
 }
 
 /* ===================== */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .about .row{
     display: flex;
     align-items: center;
+    justify-content: center;
     background: #13131a;
     flex-wrap: wrap;
     border-radius: 16rem 4rem 16rem 7rem;
@@ -402,8 +410,6 @@ font-weight: bold;
 .about .row .image{
     flex: 0.4 1 45rem;
     border-radius: 16rem 4rem 16rem 7rem;
-
-
 }
 .about .row .image img{
     width: 100%;
@@ -444,7 +450,7 @@ font-weight: bold;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
-.menu .menu-parents{
+ .menu-parents{
     display: flex ;
     align-items: center;
     justify-content: space-between;
@@ -452,6 +458,9 @@ font-weight: bold;
     gap: 2rem;
     padding-top: 30px;
     /* width: 100%; */
+}
+#anchor a img{
+width: 18rem;
 }
 .menu .sorba{
     background-image: url(../Assets2/FoodsImage/MerciSorbasi.png);
@@ -522,7 +531,6 @@ font-weight: bold;
     outline: none;
 
 }
-
 .menu .sorba a,
 .menu .salat a,
 .menu .lahmacun  a,
@@ -631,14 +639,13 @@ gap: 2.5rem;
         border-radius: 0 0 2% 20%;
     }
         .home  .setmenu {
-            /* margin: 4rem; */
             display: flex;
-            /* flex-direction: column; */
             flex-wrap: wrap;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             padding: 3rem;
         }
+     
         .home  .setmenu a {
             margin: 1.1rem;
         }
@@ -718,12 +725,13 @@ gap: 2.5rem;
     border-radius: 0;
     }
     .home  .setmenu {
-        /* margin: 4rem; */
         display: flex;
         flex-wrap: wrap;
-        /* flex-direction: column; */
         align-items: center;
         justify-content: center;
+    }
+    #anchor a img{
+        width: 15rem;
     }
     .home  .setmenu a {
         margin: 3rem;
@@ -800,6 +808,12 @@ gap: 2.5rem;
     
     .header .navbar.active{
         right: 0;
+    }
+    .setmenuMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 

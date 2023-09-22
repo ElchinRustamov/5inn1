@@ -37,17 +37,6 @@ const Katering = () => {
             letterSpacing:"0.2rem",
 
            }}
-         >Katering təşkilatı, sizin tədbirinizin yemək və içki tərəfini profesionallıqla həll edir, sizin tədbirinizə gözəl bir tədbir təcrübəsi əlavə edir və tədbirinizi qeyri-mümkün hallardan uzaq saxlayır.</p>
-         <p
-          style={{
-            textAlign:"center",
-            color:"#fff",
-            fontSize:"1.6rem",
-            fontWeight:"bold",
-            margin:"2rem 0",
-            letterSpacing:"0.2rem",
-
-           }}
          >Əgər katering xidmətlərimizə marağınız varsa, başlamaq üçün əlaqə saxlamaq kifayətdir. Bizim ekspertlərimiz sizin tədbirinizin xüsusiyyətlərinə və istəklərinizə əsasən bir təklif hazırlayacaqlar və lazım olan hər şeyi təşkil edəcəklər</p>
          <p
           style={{

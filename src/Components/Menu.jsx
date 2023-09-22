@@ -13,17 +13,17 @@ const Menu = () => {
     <section className='menu' id='menu'>
     <h1 className='heading'>Menu<span>lar</span></h1>
    <div className=''>
-   <div className='setmenu' id="anchor">
-                    <Link to="/morning">
+   <div className='menu-parents' id="anchor">
+                    <Link to="/morning" >
                         <img src={MorningLogo} alt="logo" />
                     </Link>
-                    <Link to="/businesslunch">
+                    <Link to="/businesslunch" >
                         <img src={BusinessLogo} alt="logo" />
                     </Link>
-                    <Link to="/lunch">
+                    <Link to="/lunch" >
                         <img src={LunchLogo} alt="logo" />
                     </Link>
-                    <Link to="/night">
+                    <Link to="/night" >
                         <img src={NightLogo} alt="logo" />
                     </Link>
                     <Link to="/evening">

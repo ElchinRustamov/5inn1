@@ -31,6 +31,7 @@ const handlClick = (item)=>{
 
   return (
     <div className='sorbalar' style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+      
       <Navbar/>
       <Btnback/>
       {
