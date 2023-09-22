@@ -1,33 +1,33 @@
 import React from 'react'
 import "../Css/style.css";
 import { Link } from 'react-router-dom';
-import MorningLogo from "../Assets2/1.png"
-import BusinessLogo from "../Assets2/2.png"
-import LunchLogo from "../Assets2/3.png"
-import NightLogo from "../Assets2/4.png"
-import EveningLogo from "../Assets2/5.png"
+import Seher from "../Assets2/Set/Seher.png"
+import Nahar from "../Assets2/Set/Nahar.png"
+import LunchLogo from "../Assets2/Set/Lunch.png"
+import Gece from "../Assets2/Set/Gece.png"
+import Axsam from "../Assets2/Set/Axsam.png"
 
 
 const Menu = () => {
   return (
     <section className='menu' id='menu'>
-    <h1 className='heading'>Menu<span>lar</span></h1>
+    <h1 className='heading'>Me<span>nu</span></h1>
    <div className=''>
    <div className='menu-parents' id="anchor">
                     <Link to="/morning" >
-                        <img src={MorningLogo} alt="logo" />
+                        <img src={Seher} alt="logo" />
                     </Link>
                     <Link to="/businesslunch" >
-                        <img src={BusinessLogo} alt="logo" />
+                        <img src={Nahar} alt="logo" />
                     </Link>
                     <Link to="/lunch" >
                         <img src={LunchLogo} alt="logo" />
                     </Link>
                     <Link to="/night" >
-                        <img src={NightLogo} alt="logo" />
+                        <img src={Axsam} alt="logo" />
                     </Link>
                     <Link to="/evening">
-                        <img src={EveningLogo} alt="logo" />
+                        <img src={Gece} alt="logo" />
                     </Link>
                 </div>
    </div>
