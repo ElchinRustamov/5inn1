@@ -28,7 +28,7 @@ const About = () => {
                             </span>
                         </p>
                         <p>E<span style={{textTransform:"lowercase"}}>
-                            Expres mətbəximiz isə tədbirləriniz üçün ən yaxşı seçimdir. Toy, ad günü və bütün növ rəsmi və qeyri rəsmi tədbirlərinizdə bizim Katering xidmətindən istifadə edə bilərsiniz.
+                            xpres mətbəximiz isə tədbirləriniz üçün ən yaxşı seçimdir. Toy, ad günü və bütün növ rəsmi və qeyri rəsmi tədbirlərinizdə bizim Katering xidmətindən istifadə edə bilərsiniz.
                             Sınanmış təcrübələrimizlə sizi mükəmməl ləzzətlər və keyfiyyətli xidmətlərlə tanış edirik.
                             Sizi xidmətlərin ən yaxşısını seçməyə dəvət edirik.</span>
                         </p>
