@@ -421,7 +421,6 @@ font-size: 1.4rem;
 .about .row .image{
     flex: 0.4 1 45rem;
     border-radius: 16rem 4rem 16rem 7rem;
-    /* margin-left: 3rem; */
 }
 .about .row .image img{
     width: 500px;
@@ -453,12 +452,10 @@ font-size: 1.4rem;
     font-size: 4rem;
 }
 .heading span{
-    /* margin: 0 2rem; */
     color: #ffc107;
     text-transform: uppercase;
     
 }
-/* ========================== */
 .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -570,7 +567,6 @@ transform: scale(1.1);
 }
 
 
-/* ===================== */
 .products .box-container .box{
     text-align: center;
     border: 0.2rem solid #ffc107;
