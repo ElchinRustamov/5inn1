@@ -1,0 +1,113 @@
+.isti-foods{
+    margin-top: 10rem ;
+}
+.sorbalar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+height: 100vh;
+gap: 2rem;
+padding:  3rem;
+}
+.sorbalar .sorba-header{
+    background-color: #ffc107;
+    width: 25rem;
+    height: 40rem;
+    border-radius: 30px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.sorbalar .sorba-header img{
+    width: 100%;
+    height: 20rem;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.sorba-body{
+    /* height: 15rem; */
+    padding-right: 2rem;
+    /* background-color: red; */
+    height:11rem;
+}
+
+.sorba-body p{
+font-size: 2rem;
+font-weight: bold;
+/* padding-top: 1rem; */
+margin-bottom: 4rem;
+width: 100%;
+height: 1rem;
+}
+.sorba-body-icki p{
+    margin-top: 5rem;
+    text-align: center;
+}
+.sorba-body span{
+    font-size: 1.2rem;
+    /* margin-top: 2rem; */
+    /* background-color: red; */
+    /* background-color:red; */
+    line-height: 1.5;
+    text-transform: lowercase;
+}
+
+.sorba-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:2rem;
+}
+.sorba-footer .sorba-footer-price{
+    display: flex;
+}
+.sorba-footer .sorba-footer-price p{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    
+}
+
+.sorba-footer .sorba-btn button{
+    background-color: green;
+    padding: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: #fff;
+}
+.sorba-footer .sorba-btn button:hover i{
+    transform: scale(1.3);
+}
+.sorba-footer .sorba-btn button:hover{
+    transform: scale(1.2);
+}
+    
+@media (max-width:1200px){
+    .sorbalar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        gap: 2rem;
+        padding-top:  12rem;
+        }
+        .isti-foods{
+            padding: 5rem ;
+        }
+
+}
+@media (max-width:750px){
+    .sorbalar {
+    padding-top:  12rem;
+    }
+    .isti-foods{
+        padding: 5rem ;
+    }
+}
+@media (max-width:350px){
+
+}

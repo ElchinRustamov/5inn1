@@ -1,0 +1,70 @@
+.fixed-wp{
+    position: fixed;
+    bottom: -2rem;
+    right: 0;
+    cursor: pointer;
+}
+.fixed-wp:hover{
+    transform:scale(1.4)
+}
+
+.pulse{
+    position: relative;
+    transform: all .5s ease-in-out;
+    z-index: 2;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pulse i{
+    color: rgb(13, 205, 13);
+    font-size: 3rem;
+}
+.pulse::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(71, 162, 86);
+    border-radius: 50%;
+    -webkit-animation: pulse 1500ms ease-out infinite;
+    animation: pulse 1500ms ease-out infinite;
+}
+.pulse:focus{
+    border: none;
+    outline: none;
+}
+
+@keyframes pulse{
+    0%{
+        transform: translateX(-50%)  translateY(-50%) translateZ(0) scale(1); 
+        opacity: 1;    
+     }
+     100%{
+         transform: translateX(-50%)  translateY(-50%) translateZ(0) scale(1.5); 
+         opacity: 0;    
+      }
+}
+
+@media (max-width:1200px){
+
+}
+@media (max-width:750px){
+    .fixed-wp{
+        position: fixed;
+        bottom: -2rem;
+        right: -3rem;
+        cursor: pointer;
+    }
+}
+@media (max-width:350px){
+
+}

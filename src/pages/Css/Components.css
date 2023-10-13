@@ -1,0 +1,270 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+.setmenu>div{
+    background-image: url("../../Assets2/Brush.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.setmenu>div>p{
+    font-size: 3rem;
+    text-align: center;
+    padding:1rem;
+    font-weight: bold;
+    text-shadow:6px 6px 12px #fff;
+}
+.setmenu>div>p:hover{
+    transform: scale(1.2);
+}
+.setmenu>div>div>img{
+    width: 8rem;
+    height: 8rem;
+    /* border-radius: 50%; */
+}
+.setmenu>div>div{
+    display: flex;
+}
+.setmenu>div>div>div>p{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.setmenu .setone,
+.setmenu .settwo,
+.setmenu .settree,
+.setmenu .setfo,
+.setmenu .setfive
+    {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    gap: 2rem;
+    margin-top:5rem;
+}
+.setmenu .setone .oneFoods,
+.setmenu .settwo .oneFoods,
+.setmenu .settree .oneFoods,
+.setmenu .setfo .oneFoods,
+.setmenu .setfive .oneFoods,
+.setmenu .setone .twoFoods,
+.setmenu .setone .treeFoods,
+.setmenu .setone .fooFoods,
+.setmenu .setone .fiveFoods,
+.setmenu .settwo .twoFoods,
+.setmenu .settwo .treeFoods,
+.setmenu .settwo .fooFoods,
+.setmenu .settwo .fiveFoods,
+.setmenu .settree .twoFoods,
+.setmenu .settree .treeFoods,
+.setmenu .settree .fooFoods,
+.setmenu .settree .fiveFoods,
+.setmenu .setfo .twoFoods,
+.setmenu .setfo .treeFoods,
+.setmenu .setfo .fooFoods,
+.setmenu .setfo .fiveFoods,
+.setmenu .setfive .twoFoods,
+.setmenu .setfive .treeFoods,
+.setmenu .setfive .fooFoods,
+.setmenu .setfive .fiveFoods{
+width: 18rem;
+display: flex;
+align-items: center;
+}
+.setmenu .setone .oneFoods p,
+.setmenu .settwo .oneFoods p,
+.setmenu .settree .oneFoods p,
+.setmenu .setfo .oneFoods p,
+.setmenu .setfive .oneFoods p,
+.setmenu .setone .twoFoods p,
+.setmenu .setone .treeFoods p,
+.setmenu .setone .fooFoods p,
+.setmenu .setone .fiveFoods p,
+.setmenu .settwo .twoFoods p,
+.setmenu .settwo .treeFoods p,
+.setmenu .settwo .fooFoods p,
+.setmenu .settwo .fiveFoods p,
+.setmenu .settree .twoFoods p,
+.setmenu .settree .treeFoods p,
+.setmenu .settree .fooFoods p,
+.setmenu .settree .fiveFoods p,
+.setmenu .setfo .twoFoods p,
+.setmenu .setfo .treeFoods p,
+.setmenu .setfo .fooFoods p,
+.setmenu .setfo .fiveFoods p,
+.setmenu .setfive .twoFoods p,
+.setmenu .setfive .treeFoods p,
+.setmenu .setfive .fooFoods p,
+.setmenu .setfive .fiveFoods p{
+    margin-left: 1rem;
+}
+.setOne-name{
+    position: absolute;
+    top: -5rem;
+    left: 0rem;
+    bottom: 2rem;
+    background-image: url(../../Assets2/RedBrush.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setOne-name p{
+font-size: 2rem;
+font-weight: bold;
+color: #fff;
+}
+.setone .price-setmenu,
+.settwo .price-setmenu,
+.settree .price-setmenu,
+.setfo .price-setmenu,
+.setfive .price-setmenu{
+width: 7rem;
+height: 7rem;
+background-color: red;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: -3rem;
+right: 9rem;
+}
+.setone .price-setmenu span,
+.settwo .price-setmenu span,
+.settree .price-setmenu span,
+.setfo .price-setmenu span,
+.setfive .price-setmenu span{
+    color: #fff;
+    font-size: 6.5rem;
+    font-weight: bold;
+}
+.add-btn i{
+    font-size: 3rem;
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-btn i:hover{
+    transform: scale(1.3);
+}
+
+
+
+@media (max-width:1200px){
+    .setOne-name{
+        width: 100%;
+    }
+    .setOne-name p{
+    font-size: 2rem;
+    }
+    .setone .price-setmenu,
+    .settwo .price-setmenu,
+    .settree .price-setmenu,
+    .setfo .price-setmenu,
+    .setfive .price-setmenu{
+     width: 6rem;
+     height: 6rem;
+     top: -3rem;
+     right: -1.5rem;
+}
+    .setone .price-setmenu span,
+    .settwo .price-setmenu span,
+    .settree .price-setmenu span,
+    .setfo .price-setmenu span,
+    .setfive .price-setmenu span{
+    font-size: 4rem;
+}
+
+.add-btn {
+    position: absolute;
+    right: 5rem;
+    bottom: 2rem;
+}
+.add-btn i{
+    font-size: 2.5rem;
+}
+.add-btn i:hover{
+    transform: scale(1.1);
+}
+.setmenu .setone,
+.setmenu .settwo,
+.setmenu .settree,
+.setmenu .setfo,
+.setmenu .setfive
+ {
+    gap: 1rem;
+    margin-top:7rem ;
+}
+}
+@media (max-width:750px){
+    .setOne-name{
+        width: 100%;
+    }
+    .setOne-name p{
+    font-size: 1.5rem;
+    }
+    .setone .price-setmenu,
+    .settwo .price-setmenu,
+    .settree .price-setmenu,
+    .setfo .price-setmenu,
+    .setfive .price-setmenu{
+     width: 6rem;
+     height: 6rem;
+     top: -1rem;
+     right: -1.5rem;
+}
+    .setone .price-setmenu span,
+    .settwo .price-setmenu span,
+    .settree .price-setmenu span,
+    .setfo .price-setmenu span,
+    .setfive .price-setmenu span{
+    font-size: 3.5rem;
+}
+
+.add-btn {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+}
+.add-btn i{
+    font-size: 2rem;
+}
+.add-btn i:hover{
+    transform: scale(1.1);
+}
+.setmenu .setone,
+.setmenu .settwo,
+.setmenu .settree,
+.setmenu .setfo,
+.setmenu .setfive
+    {
+    gap: 1.5rem;
+    margin-top:7rem ;
+}
+}
+@media (max-width:350px){
+
+}
+
+    
+
