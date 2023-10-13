@@ -337,7 +337,6 @@ font-weight: bold;
 }
 
 
-/* ===================== */
 
 .home{
     min-height:90vh;
@@ -353,6 +352,7 @@ font-weight: bold;
 }
 .home .content {
     max-width: 40rem;
+    max-width: 60rem;
     
 }
 
@@ -369,6 +369,10 @@ font-weight: bold;
 font-size: 1.4rem;
 }
 
+.home span{
+    color: #ffc107;
+    text-transform: uppercase;
+}
 .home .content p{
     font-weight: lighter;
     line-height: 1.8;

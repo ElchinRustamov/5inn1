@@ -7,7 +7,11 @@ import BusinessLogo from "../Assets2/Yemek/2.png"
 import LunchLogo from "../Assets2/Yemek/3.png"
 import NightLogo from "../Assets2/Yemek/4.png"
 import EveningLogo from "../Assets2/Yemek/5.png"
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+// import { Link,Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 
 const HomeComponent = () => {
@@ -18,6 +22,7 @@ const HomeComponent = () => {
                 <div className="content">
                     <img src={LogoFive} alt="Logo" />
                 </div>
+
                 <div className='header-text'>
                     <span className='header-text-span'>
                     <div style={{textTransform:"lowercase"}}>
@@ -26,6 +31,7 @@ const HomeComponent = () => {
                     </div>
                     </span>
                 </div>
+
 
                 <div className='setmenu'>
                     <Link className="test6" to="anchor" spy={true} smooth={true} duration={500}>
