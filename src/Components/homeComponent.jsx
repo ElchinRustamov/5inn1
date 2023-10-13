@@ -18,6 +18,12 @@ const HomeComponent = () => {
                 <div className="content">
                     <img src={LogoFive} alt="Logo" />
                 </div>
+                <div className='header-text_parents'>
+                    <div className='header-text'>
+                    <p><span style={{color:"white"}}>B</span>u sayt vasitəsi ilə heç bir qeydiyyatdan keçmədən <span style={{color:"orange"}}>yemək</span>,  <span style={{color:"orange"}}>şirniyyat</span> və <span style={{color:"orange"}}>tortları</span> online sifariş verə bilərsiniz.</p>
+                    <p><span style={{color:"white"}}>B</span>unun üçün seçdiyiniz yeməkləri səbətə əlavə edib sadəcə təstiq etməyiniz kifayətdir.</p>
+                    </div>
+                </div>
                 <div className='setmenu'>
                     <Link className="test6" to="anchor" spy={true} smooth={true} duration={500}>
                         <img src={MorningLogo} alt="logo" />

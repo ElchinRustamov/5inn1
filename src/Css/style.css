@@ -352,12 +352,29 @@ font-weight: bold;
     padding-top: 12rem;
 }
 .home .content {
-    max-width: 60rem;
+    max-width: 40rem;
     
 }
 
 .home .content img{
    max-width: 100%;
+}
+.header-text_parents{
+    max-width: 60rem;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-text p{
+    color: white;
+    text-transform: lowercase !important;
+    font-size: 1.7rem;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
 }
 .home span{
     color: #ffc107;
